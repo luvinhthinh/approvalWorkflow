@@ -1,0 +1,11 @@
+package com.workflow.model;
+
+public enum RequestStatus {
+	RAISED,
+	PENDING_MANAGER_APPROVAL,
+	PENDING_SYSTEM_OWNER_APPROVAL,
+	PROCESSING,
+	APPROVED,
+	REJECTED,
+	FULFILLED
+}
